@@ -1,0 +1,24 @@
+{
+  "name": "mycinema",
+  "version": "1.0.0",
+  "description": "mycinemahhh",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "hs -a localhost -p 63342 -o",
+    "pretest": "npm install",
+    "test": "browser-sync start --server app --files 'index.html' --no-notify"
+  },
+  "keywords": [
+    "Angular",
+    "BootStrap"
+  ],
+  "author": "wangdapao",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "http-server": "^0.8.5"
+  },
+  "main": "index.js"
+}
